@@ -202,7 +202,7 @@ public class WeightCalcTest {
         By nameTextBoxBy = By.xpath(nameTextBoxXpath);
         WebElement nameTextBoxWebElement = driver.findElement(nameTextBoxBy);
         nameTextBoxWebElement.click();
-        nameTextBoxWebElement.sendKeys("Alla");
+        nameTextBoxWebElement.sendKeys("Jena");
         String heightTextBoxXpath = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[3]/td[2]/input";
         By heightTextBoxXpathBy = By.xpath(heightTextBoxXpath);
         WebElement heightTextBoxWebElement = driver.findElement(heightTextBoxXpathBy);
